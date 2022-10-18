@@ -26,7 +26,7 @@ DriverEntry(
 	NTSTATUS nt = STATUS_SUCCESS;
 	PDEVICE_OBJECT pDeviceObject = NULL;
 	UNICODE_STRING uniszDevice;
-	RtlInitUnicodeString(&uniszDevice, L"\\Devices\\Simple2");
+	RtlInitUnicodeString(&uniszDevice, L"\\Device\\Simple2");
 
 	UNREFERENCED_PARAMETER(puniszRegistryPath);
 	
@@ -43,5 +43,6 @@ DriverEntry(
 	pDriverObject->DriverUnload = OnDrvUnload;
 
 	fail:
+	KdPrint(("Func: %s returns %lX\n", __FUNCTION__, nt));
 	return nt;
 }
