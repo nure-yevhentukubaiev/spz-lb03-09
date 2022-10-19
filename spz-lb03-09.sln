@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spz-lb03-09", "spz-lb03-09\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spz-lb03-09-task02", "spz-lb03-09-task02\spz-lb03-09-task02.vcxproj", "{0D447745-1DFC-49DC-9B1B-D4E27D1BED85}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spz-lb03-09-task03", "spz-lb03-09-task03\spz-lb03-09-task03.vcxproj", "{53FFC828-9414-4F6E-9CD1-54A2F4A68B5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -39,6 +41,18 @@ Global
 		{0D447745-1DFC-49DC-9B1B-D4E27D1BED85}.Release|x64.ActiveCfg = Release|x64
 		{0D447745-1DFC-49DC-9B1B-D4E27D1BED85}.Release|x64.Build.0 = Release|x64
 		{0D447745-1DFC-49DC-9B1B-D4E27D1BED85}.Release|x64.Deploy.0 = Release|x64
+		{53FFC828-9414-4F6E-9CD1-54A2F4A68B5C}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{53FFC828-9414-4F6E-9CD1-54A2F4A68B5C}.Debug|ARM64.Build.0 = Debug|ARM64
+		{53FFC828-9414-4F6E-9CD1-54A2F4A68B5C}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{53FFC828-9414-4F6E-9CD1-54A2F4A68B5C}.Debug|x64.ActiveCfg = Debug|x64
+		{53FFC828-9414-4F6E-9CD1-54A2F4A68B5C}.Debug|x64.Build.0 = Debug|x64
+		{53FFC828-9414-4F6E-9CD1-54A2F4A68B5C}.Debug|x64.Deploy.0 = Debug|x64
+		{53FFC828-9414-4F6E-9CD1-54A2F4A68B5C}.Release|ARM64.ActiveCfg = Release|ARM64
+		{53FFC828-9414-4F6E-9CD1-54A2F4A68B5C}.Release|ARM64.Build.0 = Release|ARM64
+		{53FFC828-9414-4F6E-9CD1-54A2F4A68B5C}.Release|ARM64.Deploy.0 = Release|ARM64
+		{53FFC828-9414-4F6E-9CD1-54A2F4A68B5C}.Release|x64.ActiveCfg = Release|x64
+		{53FFC828-9414-4F6E-9CD1-54A2F4A68B5C}.Release|x64.Build.0 = Release|x64
+		{53FFC828-9414-4F6E-9CD1-54A2F4A68B5C}.Release|x64.Deploy.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
