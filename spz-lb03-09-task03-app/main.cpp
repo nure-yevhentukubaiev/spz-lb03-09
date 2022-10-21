@@ -17,7 +17,7 @@ int _tmain(int argc, TCHAR *argv[])
 		goto fail;
 	} else {
 		_tprintf_s(
-			_T("Function CreateFile succeded, handle: %pX\n"), hFile
+			_T("Function CreateFile succeded, handle: %p\n"), hFile
 		);
 	}
 
