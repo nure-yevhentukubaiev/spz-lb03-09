@@ -57,7 +57,14 @@ OnDrvUnload(
 	UNREFERENCED_PARAMETER(DriverObject);
 	KdPrint(("Func: %s\n", __FUNCTION__));
 
-	IoDeleteDevice(DriverObject->DeviceObject);
+	for (
+		PDEVICE_OBJECT dev = DriverObject->DeviceObject;
+		dev != NULL;
+		dev = dev->NextDevice
+	) {
+		KdPrint(("Func: %s: deleted device, addr %p\n", __FUNCTION__, dev));
+		IoDeleteDevice(dev);
+	}
 
 	return;
 }
