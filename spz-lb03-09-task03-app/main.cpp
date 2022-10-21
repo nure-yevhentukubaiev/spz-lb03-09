@@ -20,8 +20,8 @@ int _tmain(int argc, TCHAR *argv[])
 			_T("Function CreateFile succeded, handle: %p\n"), hFile
 		);
 	}
-
-	if (FAILED(CloseHandle(hFile))) {
+	
+	if (!CloseHandle(hFile)) {
 		bErr = GetLastError();
 		_tprintf_s(
 			_T("Function CloseHandle failed, error: %08lX\n"), bErr
